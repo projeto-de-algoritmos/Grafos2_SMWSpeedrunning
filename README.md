@@ -6,8 +6,8 @@
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| 18/0028685  |  Victor Samuel dos Santos Lucas |
-| 18/0029177  |  Wagner Martins da Cunha |
+| 18/0030272  | Antonio Ruan Moura Barreto |
+| 18/0029177  | Wagner Martins da Cunha |
 
 ## Sobre 
 Descreva os objetivos do seu projeto e como ele funciona. 
