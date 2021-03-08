@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.WellcomeText{
+  text-align: center;
+  font-size: large;
+}
+
+.Menu{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  background-color: rgb(168, 255, 212);
+  text-align: center;
+}
