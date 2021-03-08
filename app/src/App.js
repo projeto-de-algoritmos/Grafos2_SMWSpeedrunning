@@ -118,17 +118,22 @@ function App() {
 
   return(
     <div>
-      <div>
+      <div className="Menu">
+        <text className="WellcomeText">
+          Bem vindo ao Joao e Maria do bairro <br/>
+        </text>
+        Adicione um bairro de cada vez:<br/>
         <input type="text" id="name" onChange={(e) => {nodeName = e.target.value;}} />
-        <button onClick={addnode}>Adicionar nó</button>
+        <button onClick={addnode}>Adicionar</button>
         <br/>
+        Adicione as ligações entre os bairros com o comprimenento de cada um:<br/>
         <Select nodes={nodes} callback={(selected) => SetSelectedOption0(selected)} />
         <Select nodes={nodes} callback={(selected) => SetSelectedOption1(selected)} />
         <input type="number" id="weight" onChange={(e) => {edgeWeight=e.target.value}}/>
-        <button onClick={addEdge}>Adicionar Aresta</button>
+        <button onClick={addEdge}>Adicionar</button>
         <br/>
-        <button onClick={() => console.log(graph)}>print graph</button> {/*to test*/}
-        <button onClick={() => setMst(graph.kruskal())}>Obter Árvore Mínima Geradora</button>
+        {/* <button onClick={() => console.log(graph)}>print graph</button> */}
+        <button onClick={() => setMst(graph.kruskal())}>Obter o melhor caminho para explorar a cidade</button>
       </div>
       <VisGraph getNetwork={(network) => {setNetwork(network); network.setOptions(options)}} style={style} />
     </div>
