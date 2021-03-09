@@ -21,6 +21,8 @@ Baseado na história de João e Maria que exploravam os lugares colocando pedrin
 
 ![plot](./assets/g3.png)
 
+![plot](./assets/g4.png)
+
 ## Instalação 
 **Linguagem**: JavaScript<br>
 **Framework**: React<br>
