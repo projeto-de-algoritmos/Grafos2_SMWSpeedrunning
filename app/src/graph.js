@@ -40,7 +40,8 @@ export default class Graph {
         }
         var mst = {} 
         // definindo estrutura do union find
-        var nodes = keys(this.graph);
+        var nodes = Object.keys(this.graph);
+        // var nodes = this.graph.keys();
         var unionFind = {};
         for(var i in nodes){
             let v = nodes[i];
@@ -50,7 +51,8 @@ export default class Graph {
         this.edges.sort(cmpEdge)
         // interações do kruskal
         var m = 0;
-        var n = keys(this.graph).length;
+        var n = Object.keys(this.graph).length;
+        // var n = this.graph.keys().length;
         for(var i in this.edges){
             let edge = this.edges[i];
             if( find(edge[1]) != find(edge[2]) ){
