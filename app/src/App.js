@@ -126,7 +126,7 @@ function App() {
         <input type="text" id="name" onChange={(e) => {nodeName = e.target.value;}} />
         <button onClick={addnode}>Adicionar</button>
         <br/>
-        Adicione as ligações entre os bairros com o comprimenento de cada um:<br/>
+        Adicione as ligações entre os bairros com o comprimento de cada um:<br/>
         <Select nodes={nodes} callback={(selected) => SetSelectedOption0(selected)} />
         <Select nodes={nodes} callback={(selected) => SetSelectedOption1(selected)} />
         <input type="number" id="weight" onChange={(e) => {edgeWeight=e.target.value}}/>

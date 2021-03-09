@@ -2,6 +2,16 @@ const options = {
   physics: {
     enabled: false,
     stabilization: false
+  },
+  edges: {
+    arrows: {
+      to: {
+        enabled: false,
+      },
+      from: {
+        enabled: false,
+      }
+    }
   }
 }
 
