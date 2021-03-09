@@ -35,7 +35,6 @@ Após isso vá para a pasta app do projeto com:
 
 ```
 $ cd Grafos2_joao_e_maria_do_bairro/app/
-
 ```
 
 Agora é só instalar as dependências com o seguinte comando:
